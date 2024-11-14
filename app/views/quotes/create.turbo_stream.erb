@@ -1,0 +1,4 @@
+<%# The first line tells Turbo to prepend to the Turbo Frame with id quotes the app/views/quotes/_quote.html.erb partial %>
+<%# The second line tells Turbo to update the Turbo Frame with id new_quote with empty content. %>
+<%= turbo_stream.prepend "quotes", @quote %>
+<%= turbo_stream.update Quote.new, "" %>
