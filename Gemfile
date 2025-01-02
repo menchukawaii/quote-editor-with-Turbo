@@ -59,4 +59,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "dartsass-sprockets", "~> 3.1"
+gem "dartsass-sprockets", "~> 3.2"
